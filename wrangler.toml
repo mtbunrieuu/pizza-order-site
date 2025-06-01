@@ -1,0 +1,7 @@
+name = "pizza-order-site"
+type = "javascript"
+compatibility_date = "2025-06-01"
+
+[build]
+upload.format = "service-worker"
+main = "worker.js"
