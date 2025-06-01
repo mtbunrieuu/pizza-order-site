@@ -5,41 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Pizza Order</title>
   <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+    }
+
     body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background: linear-gradient(135deg, #ffcc00 0%, #ffff99 100%);
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: #fff;
+      color: rgb(130, 209, 80);
       text-align: center;
-      padding: 5rem 1rem;
-      margin: 0;
+      user-select: none;
     }
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-      color: rgb(130, 209, 80);
+
+    .content {
+      font-size: 2.5rem;
+      font-weight: 900;
       text-shadow:
         0 0 5px #ffffff,
         0 0 10px #ffffff,
         0 0 20px #ffffff,
-        0 0 40px #ffffff,
-        0 0 60px #ffffff;
-      font-weight: bold;
-    }
-    p {
-      font-size: 1.5rem;
-      color: rgb(130, 209, 80);
-      text-shadow:
-        0 0 5px #ffffff,
-        0 0 10px #ffffff,
-        0 0 20px #ffffff,
-        0 0 40px #ffffff,
-        0 0 60px #ffffff;
-      font-weight: bold;
+        0 0 40px #ffffff;
+      white-space: normal;
     }
   </style>
 </head>
 <body>
-  <h1>🍕 Welcome to PizzaOrder.com! 🍕</h1>
-  <p>🧑‍🍳 We’re cooking something delicious...</p>
+  <div class="content">
+    🍕 Welcome to PizzaOrder.com! <br>
+    🧑‍🍳 We’re cooking something delicious...
+  </div>
 </body>
 </html>
